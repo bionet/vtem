@@ -44,6 +44,20 @@ To build the documentation, the following packages are also required:
 
 * `Sphinx <http://http://sphinx-doc.org/>`_ 1.1.0 or later.
 
+
+Running the demos
+-----------------
+To run the demos in the package as it is, please download the `demo files <http://www.bionet.ee.columbia.edu/code/vtem/demo_files>`_ and unarchive it in the demos folder.
+
+To run the demos on other videos, the filename can be provided with the -i switch. All options supported can be viewed by:: 
+
+	python <demo_filename> --help
+
+If you have OpenCV installed, all video files encoded with codecs that have been installed with OpenCV should be supported.
+
+To run without OpenCV support, please load the video into Matlab and save it using the scripts provided in the matlab_h5 folder of the package.
+
+
 Platform Support
 ----------------
 The software has been developed and tested on Linux; it should also 
