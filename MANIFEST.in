@@ -1,4 +1,4 @@
-include AUTHORS CHANGES INSTALL LICENSE README.rst TODO
+include AUTHORS CHANGES INSTALL LICENSE README.rst TODO setup.cfg
 recursive-include demos *.py
 recursive-include docs *
 recursive-include matlab_h5 *
