@@ -5,29 +5,25 @@ Video Time Encoding and Decoding Machines
 
 Package Description
 -------------------
-
-This package provides code to encode and decode videos with 
-time encoding machines consisting of  gabor or centre surround
+This package provides code to encode and decode videos with time encoding 
+machines consisting of  gabor or centre surround
 receptive fields followed by Integrate-and-fire neurons [1]_, [2]_ .
 It supports both the pseudoinverse algorithm, described in [1]_, [2]_ and
 recurrent neural networks method, described in [3]_ for decoding.
 
 Authors & Acknowledgments
 -------------------------
-
 This software was written by Yiyin Zhou and packaged by Nikul Ukani,
 both currently at the Bionet Group [4]_ at Columbia University. 
 
 License
 -------
-
-This software is licensed under the 
-`BSD License <http://www.opensource.org/licenses/bsd-license.php>`_.
+This software is licensed under the `BSD License 
+<http://www.opensource.org/licenses/bsd-license>`_.
 See the included LICENSE file for more information.
 
 Contact Information
 -------------------
-
 Please direct all questions and comments pertaining to this software to
 
 `Nikul Ukani <nikul@ee.columbia.edu>`_ and

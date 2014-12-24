@@ -6,7 +6,6 @@ SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
 PAPER         =
 BUILDDIR      = build
-SRCDIR        = source
 
 # User-friendly check for sphinx-build
 ifeq ($(shell which $(SPHINXBUILD) >/dev/null 2>&1; echo $$?), 1)
@@ -48,10 +47,9 @@ help:
 	@echo "  doctest    to run all doctests embedded in the documentation (if enabled)"
 
 clean:
-	rm -rf $(BUILDDIR)/* $(SRCDIR)/generated/*
+	rm -rf $(BUILDDIR)/*
 
 html:
-	sphinx-autogen -o $(SRCDIR)/generated $(SRCDIR)/*.rst
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
@@ -87,17 +85,17 @@ qthelp:
 	@echo
 	@echo "Build finished; now you can run "qcollectiongenerator" with the" \
 	      ".qhcp project file in $(BUILDDIR)/qthelp, like this:"
-	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/VideoTimeEncodingMachinesVTEM.qhcp"
+	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/VideoTimeEncodingandDecodingMachines.qhcp"
 	@echo "To view the help file:"
-	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/VideoTimeEncodingMachinesVTEM.qhc"
+	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/VideoTimeEncodingandDecodingMachines.qhc"
 
 devhelp:
 	$(SPHINXBUILD) -b devhelp $(ALLSPHINXOPTS) $(BUILDDIR)/devhelp
 	@echo
 	@echo "Build finished."
 	@echo "To view the help file:"
-	@echo "# mkdir -p $$HOME/.local/share/devhelp/VideoTimeEncodingMachinesVTEM"
-	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/VideoTimeEncodingMachinesVTEM"
+	@echo "# mkdir -p $$HOME/.local/share/devhelp/VideoTimeEncodingandDecodingMachines"
+	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/VideoTimeEncodingandDecodingMachines"
 	@echo "# devhelp"
 
 epub:

@@ -7,7 +7,7 @@ from glob import glob
 try:
     import setuptools
 except ImportError:
-    from distribute_setup import use_setuptools
+    from ez_setup import use_setuptools
     use_setuptools()
 
 from distutils.command.install import INSTALL_SCHEMES
@@ -16,7 +16,7 @@ from setuptools import find_packages
 from setuptools import setup
 
 NAME =               'vtem'
-VERSION =            '0.1.1'
+VERSION =            '0.1.2'
 AUTHOR =             'Yiyin Zhou'
 AUTHOR_EMAIL =       'yz2227@columbia.edu'
 URL =                'https://github.com/bionet/vtem/'
@@ -34,7 +34,7 @@ CLASSIFIERS = [
 PACKAGES =           ['vtem','vtem.utils']
 
 if __name__ == "__main__":
-    if os.path.exists('MANIFEST'): 
+    if os.path.exists('MANIFEST'):
         os.remove('MANIFEST')
 
     setup(
