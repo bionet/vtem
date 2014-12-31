@@ -9,6 +9,10 @@ receptive fields followed by Integrate-and-fire neurons [1]_ , [2]_ .
 It supports both the pseudoinverse algorithm, described in [1]_ , [2]_ and
 recurrent neural networks method, described in [3]_ for decoding.
 
+Additional time encoding and decoding algorithms implemented in Python are 
+available in the `Time Encoding and Decoding (TED) Toolkit 
+<http://ted-python.rtfd.org>`_.
+
 Contents
 --------
 

@@ -30,10 +30,10 @@ installed:
 * `Python <http://www.python.org>`_ 2.7 or later.
 * `setuptools <http://peak.telecommunity.com/DevCenter/setuptools>`_ 0.6c10 or later.
 * `NumPy <http://numpy.scipy.org>`_ 1.6.0 or later.
-* `Scikits.cuda <http://github.com/lebedov/scikits.cuda/>`_ 0.042 or greater
+* `CUDA SciKit <http://github.com/lebedov/scikits.cuda/>`_ 0.042 or greater
 * `PyTables <http://www.pytables.org/>`_ 2.4.0 or greater
-* `PyCUDA <http://mathema.tician.de/software/pycuda>`_ 2011.1 or later 
-* `NIVIDIA CUDA Toolkit <http://www.nvidia.com/object/cuda_home_new.html>`_ 4.0 or later.
+* `PyCUDA <http://mathema.tician.de/software/pycuda>`_ 2011.1 or later
+* `NVIDIA CUDA Toolkit <http://www.nvidia.com/object/cuda_home_new.html>`_ 4.0 or later.
 
 To support reading and writing video files directly, the package requires
 
