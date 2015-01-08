@@ -113,9 +113,6 @@ def VTEM_IAF(videofile, output_filename, Wt, rf, Wx=2*np.pi*4, Wy=2*np.pi*4,
     >>> vtem.VTEM_Gabor_IAF('video.h5', 'spikes.h5', 2*np.pi*10, gb)
 
     """
-    
-    
-    videoarray = 0
     if npinput:
         videoarray = videofile
         h5input = False
@@ -213,7 +210,7 @@ def VTEM_Gabor_IAF(videofile, output_filename, Wt, Wx=2*np.pi*4, Wy=2*np.pi*4,
                    start_frame=0, end_frame=None, dx=1.0/16, dy=1.0/16, 
                    fps=100, domain=None, h5input=True):
     """
-    Encode a video with IAF neurons and gabor receptive field
+    Encode a video with IAF neurons and Gabor receptive field
     with default parameters
 
     Parameters
@@ -303,7 +300,6 @@ def VTEM_Gabor_IAF(videofile, output_filename, Wt, Wx=2*np.pi*4, Wy=2*np.pi*4,
     >>> vtem.VTEM_Gabor_IAF('video.h5', 'spikes.h5', 2*np.pi*10)
     
     """
-    videoarray = 0
     if h5input:
         h5file = tables.openFile(videofile, 'r')
         videoarray = h5file.root.real
@@ -324,7 +320,7 @@ def VTEM_CS_IAF(videofile, output_filename, Wt, Wx=2*np.pi*4, Wy=2*np.pi*4,
                 start_frame=0, end_frame=None, dx=1.0/16, dy=1.0/16,
                 fps=100, domain=None, h5input=True):
     """
-    Encode a video with IAF neurons and gabor receptive field
+    Encode a video with IAF neurons and Centre Surround receptive field
     with default parameters
 
     Parameters
@@ -414,8 +410,6 @@ def VTEM_CS_IAF(videofile, output_filename, Wt, Wx=2*np.pi*4, Wy=2*np.pi*4,
     >>> vtem.VTEM_CS_IAF('video.h5', 'spikes.h5', 2*np.pi*10)
     
     """
-
-    videoarray = 0
     if h5input:
         h5file = tables.openFile(videofile, 'r')
         videoarray = h5file.root.real
