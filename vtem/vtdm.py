@@ -165,7 +165,7 @@ def decode_video(spikefile, Dswfilename, dirichfilename, start_time,
             VTDM(spikefile, Dswfilename, dirichfilename, start_time,
                  end_time, dt, Mx, My, Mt, domain, Wx, 
                  Wy, Wt, lamb, dtype, rnn, 
-                 alpha, steps, aviout, stitching, 
+                 alpha, steps, stitching, 
                  stitch_interval,False,output_format, output)
         else:
             VTDM_prepb(spikefile, Dswfilename, dirichfilename, Mx, My, 
