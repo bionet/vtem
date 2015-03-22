@@ -99,7 +99,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Video Time Encoding and Decoding Machines'
-copyright = u'2013-2014, Nikul H. Ukani, Yiyin Zhou'
+copyright = u'2013-2015, Nikul H. Ukani, Yiyin Zhou'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the

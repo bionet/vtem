@@ -2,7 +2,7 @@
 
 License
 =======
-Copyright (c) 2013-2014 Nikul H. Ukani and Yiyin Zhou.
+Copyright (c) 2013-2015 Nikul H. Ukani and Yiyin Zhou.
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without

@@ -32,4 +32,4 @@ Please direct all questions and comments pertaining to this software to
 .. [1] `Video Time Encoding Machines <http://www.bionet.ee.columbia.edu/publications/103017/>`_, Aurel A. Lazar and Eftychios A. Pnevmatikakis, IEEE Transactions on Neural Networks, Volume 22, Number 3, pp. 461-473, March 2011  
 .. [2] `Encoding Natural Scenes with Neural Circuits with Random Thresholds <http://www.bionet.ee.columbia.edu/publications/99019/>`_, Aurel A. Lazar, Eftychios A. Pnevmatikakis and Yiyin Zhou, Vision Research, Volume 50, Number 22, pp. 2200-2212, October 2010, Special Issue on Mathematical Models of Visual Coding
 .. [3] `Massively Parallel Neural Encoding and Decoding of Visual Stimuli <http://www.bionet.ee.columbia.edu/publications/98018/>`_, Aurel A. Lazar and Yiyin Zhou, Neural Networks, Volume 32, pp. 303-312, August 2012, Special Issue: IJCNN 2011 
-.. [4]  http://bionet.ee.columbia.edu/
+.. [4]  http://www.bionet.ee.columbia.edu/
