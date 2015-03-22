@@ -16,7 +16,7 @@ from setuptools import find_packages
 from setuptools import setup
 
 NAME =               'vtem'
-VERSION =            '0.1.2'
+VERSION =            '0.1.2.1'
 AUTHOR =             'Yiyin Zhou'
 AUTHOR_EMAIL =       'yz2227@columbia.edu'
 URL =                'https://github.com/bionet/vtem/'
